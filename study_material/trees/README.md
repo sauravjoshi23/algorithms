@@ -30,19 +30,31 @@ D     E
 
 There are many ways to keep a tree balanced, see types of trees for details
 
+For more Info:
+visit : https://www.geeksforgeeks.org/convert-normal-bst-balanced-bst/
+
 
 ## Complete trees
 A complete binary tree is a binary tree in which every level of the tree is fully filled, except for perhaps the
 last level. To the extent that the last level is filled, it is filled left to right.
 A complete tree is always balanced. Reciprocal is not true
 
+For more Info:
+visit : https://www.geeksforgeeks.org/check-whether-binary-tree-complete-not-set-2-recursive-solution/
+
 ## Full Binary Trees
 A full binary tree is a binary tree in which every node has either zero or two children. That is, no nodes have
 only one child.
 
+For more Info:
+visit : https://www.geeksforgeeks.org/check-whether-binary-tree-full-binary-tree-not/
+
 ## Perfect Binary Trees
 A perfect binary tree is one that is both full and complete. All leaf nodes will be at the same level, and this
 level has the maximum number of nodes.
+
+For more Info:
+visit : https://www.geeksforgeeks.org/check-weather-given-binary-tree-perfect-not/
 
 ## Tree Traversal
 
@@ -60,7 +72,9 @@ level has the maximum number of nodes.
   - visit left children
   - visit right children
   - visit node
-
+  
+For more Info:
+visit : https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 
 
 # Type of trees
@@ -74,6 +88,9 @@ all left descendants <= n < all right descendents. This must be true for each no
 Note that this inequality must be true for all of a node's descendents, not just its immediate children
 visualization: https://www.cs.usfca.edu/~galles/visualization/BST.html
 
+For more Info:
+visit : https://www.geeksforgeeks.org/binary-search-tree-data-structure/
+
 ## B Tree
 Self-balancing search tree
 
@@ -84,6 +101,9 @@ B-trees have substantial advantages over alternative implementations when the ti
 MIT Lesson: https://www.youtube.com/watch?v=TOb1tuEZ2X4
 visualization: https://www.cs.usfca.edu/~galles/visualization/BTree.html
 
+For more Info:
+visit : https://www.geeksforgeeks.org/introduction-of-b-tree-2/
+
 ## B+ Tree
 A B+ tree can be viewed as a B-tree in which each node contains only keys (not key–value pairs), and to which an additional level is added at the bottom with linked leaves.
 
@@ -91,6 +111,9 @@ A B+ tree can be viewed as a B-tree in which each node contains only keys (not k
 - Because B+ trees don't have data associated with interior nodes, more keys can fit on a page of memory. Therefore, it will require fewer cache misses in order to access data that is on a leaf node.
 
 visualization: https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html
+
+For more Info:
+visit : https://www.geeksforgeeks.org/introduction-of-b-tree/
 
 ## B vs B+ bs B*
 
@@ -117,6 +140,9 @@ Insertions and deletions may require the tree to be rebalanced by one or more tr
 
 visualization: https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
 
+For more Info:
+visit : https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+
 ## Red Black Tree
 Self-balancing binary search tree
 Each node of the binary tree has an extra bit, and that bit is often interpreted as the color (red or black) of the node. 
@@ -131,6 +157,9 @@ In addition to the requirements imposed on a binary search tree the following mu
 
 visualization: https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
 
+For more Info:
+visit : https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
+
 ## Tries, aka prefix-tree
 
 A trie is a variant of an n-ary tree in which characters are stored at each node. Each path down the tree may
@@ -141,3 +170,6 @@ table can quickly look up whether a string is a valid word, it cannot tell us if
 words. A trie can do this very quickly.
 
 visualization: https://www.cs.usfca.edu/~galles/visualization/Trie.html
+
+For more Info:
+visit : https://www.geeksforgeeks.org/trie-insert-and-search/
